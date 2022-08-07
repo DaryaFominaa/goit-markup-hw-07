@@ -1,0 +1,27 @@
+.footer {
+    
+    padding-bottom: 60px;
+    padding-top: 60px;
+    background-color: var(--footer-bcr-color);
+    
+    
+    &__container {
+        @extend %container;
+        display: flex;
+        align-items: center;
+        align-items: baseline;
+        gap: 70px;
+    }
+
+    &__logo {
+        display: flex;
+        color: var(--button-color);
+        margin-right: 0;
+        
+        &--accent {
+        color: var(--accent-color);
+    }
+    }
+
+}
+

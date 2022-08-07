@@ -13,36 +13,36 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    
   </head>
 
   <body>
     <!-- Шапка сайта -->
 
     <header class="header">
-      <div class="header__container container">
-        <a class="header__logo logo link" href="./index.html"
+      <div class="header__container">
+        <a class="header__logo logo" href="./index.html"
           ><span class="header__logo header__logo--accent">Web</span>Studio</a
         >
 
         <nav class="nav">
-          <ul class="nav__list list">
+          <ul class="nav__list">
             <li class="nav__item">
-              <a class="nav__link link header__link" href="./index.html">Студія</a>
+              <a class="nav__link header__link" href="./index.html">Студія</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link nav__link--current link header__link" href="">Портфоліо</a>
+              <a class="nav__link nav__link--current header__link" href="">Портфоліо</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link link header__link" href="">Контакти</a>
+              <a class="nav__link header__link" href="">Контакти</a>
             </li>
           </ul>
         </nav>
 
-        <ul class="header__list list">
+        <ul class="header__list">
           <li class="header__item">
-            <a class="header__link link" href="mailto:info@devstudio.com">
+            <a class="header__link" href="mailto:info@devstudio.com">
               <svg width="16" height="12" class="header__icon">
                 <use href="./images/symbol-defs1.svg#icon-envelope"></use>
               </svg>
@@ -50,7 +50,7 @@
             </a>
           </li>
           <li class="header__item">
-            <a class="header__link link" href="tel:+380961111111">
+            <a class="header__link" href="tel:+380961111111">
               <svg width="10" height="16" class="header__icon">
                 <use href="./images/symbol-defs1.svg#icon-smartphone"></use>
               </svg>
@@ -63,29 +63,29 @@
     <main>
       <!-- фильтр-навигация по портфолио -->
       <section class="filter section">
-        <div class="filter__container container">
-          <h1 class="fitler__title fitler__title--visually-hidden">галерея робіт</h1>
-          <ul class="filter__list list">
+        <div class="filter__container">
+          <h1 class="fitler__title filter__title--visually-hidden">галерея робіт</h1>
+          <ul class="filter__list">
             <li class="filter__item">
               <button type="button" class="filter__button button">Все</button>
             </li>
-            <li class="filter-list item">
+            <li class="filter__item">
               <button type="button" class="filter__button button">Веб-сайты</button>
             </li>
-            <li class="filter-list item">
+            <li class="filter__item">
               <button type="button" class="filter__button button">Приложения</button>
             </li>
-            <li class="filter-list item">
+            <li class="filter__item">
               <button type="button" class="filter__button button">Дизайн</button>
             </li>
-            <li class="filter-list item">
+            <li class="filter__item">
               <button type="button" class="filter__button button">Маркетинг</button>
             </li>
           </ul>
 
-          <ul class="fitler__portfolio portfolio card-set list">
+          <ul class="portfolio card-set">
             <li class="portfolio__item card-item">
-              <a href="" class="portfolio__link link">
+              <a href="" class="portfolio__link">
                 <div class="portolio__wrapper">
                   <img
                     src="./images/img8.jpg"
@@ -108,7 +108,7 @@
             </li>
 
             <li class="portfolio__item card-item">
-              <a href="" class="portfolio__link link">
+              <a href="" class="portfolio__link">
                 <div class="portolio__wrapper">
                   <img
                     class="pic"
@@ -131,7 +131,7 @@
               </a>
             </li>
             <li class="portfolio__item card-item">
-              <a href="" class="portfolio__link link">
+              <a href="" class="portfolio__link">
                 <div class="portolio__wrapper">
                   <img
                     class="pic"
@@ -154,7 +154,7 @@
               </a>
             </li>
             <li class="portfolio__item card-item">
-              <a href="" class="portfolio__link link">
+              <a href="" class="portfolio__link">
                 <div class="portolio__wrapper">
                   <img class="pic" src="./images/img11.jpg" alt="Наушники" width="370" />
                   <div class="portolio__overlay">
@@ -172,7 +172,7 @@
               </a>
             </li>
             <li class="portfolio__item card-item">
-              <a href="" class="portfolio__link link">
+              <a href="" class="portfolio__link">
                 <div class="portolio__wrapper">
                   <img class="pic" src="./images/img12.jpg" alt="Пример коробок" width="370" />
                   <div class="portolio__overlay">
@@ -190,7 +190,7 @@
               </a>
             </li>
             <li class="portfolio__item card-item">
-              <a href="" class="portfolio__link link">
+              <a href="" class="portfolio__link">
                 <div class="portolio__wrapper">
                   <img class="pic" src="./images/img13.jpg" alt="Сайт на мониторе" width="370" />
                   <div class="portolio__overlay">
@@ -209,7 +209,7 @@
               </a>
             </li>
             <li class="portfolio__item card-item">
-              <a href="" class="portfolio__link link">
+              <a href="" class="portfolio__link">
                 <div class="portolio__wrapper">
                   <img class="pic" src="./images/img14.jpg" alt="Разворот журнала" width="370" />
                   <div class="portolio__overlay">
@@ -227,7 +227,7 @@
               </a>
             </li>
             <li class="portfolio__item card-item">
-              <a href="" class="portfolio__link link">
+              <a href="" class="portfolio__link">
                 <div class="portolio__wrapper">
                   <img
                     class="pic"
@@ -251,7 +251,7 @@
               </a>
             </li>
             <li class="portfolio__item card-item">
-              <a href="" class="portfolio__link link">
+              <a href="" class="portfolio__link">
                 <div class="portolio__wrapper">
                   <img class="pic" src="./images/img16.jpg" alt="Ноутбук с сайтом" width="370" />
                   <div class="portolio__overlay">
@@ -277,16 +277,16 @@
     <footer class="footer">
       <div class="footer__container container">
         <div class="footer__box">
-          <a href="./index.html" class="footer__logo logo link"
+          <a href="./index.html" class="footer__logo logo"
             ><span class="footer__logo footer__logo--accent">Web</span>Studio</a
           >
 
           <!-- ADDRESS -->
           <address class="contacts">
-            <ul class="contacts__list list">
+            <ul class="contacts__list">
               <li class="contacts__item address">
                 <a
-                  class="address__link link"
+                  class="address__link"
                   href="https://www.google.com.ua/maps"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -294,12 +294,12 @@
                 >
               </li>
               <li class="contacts__item">
-                <a class="contacts__link link" href="mailto:info@devstudio.com"
+                <a class="contacts__link" href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
               <li class="contacts__item">
-                <a class="contacts__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="contacts__link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
@@ -308,7 +308,7 @@
         <div class="social social--footer">
           <h3 class="social__title social__title--footer title">приєднуйтесь</h3>
 
-          <ul class="social__list list">
+          <ul class="social__list">
             <li class="social__item">
               <a href="" class="social__link social__link--footer">
                 <svg class="social__icon social__icon--footer">

@@ -1,0 +1,76 @@
+
+.features{
+
+    &__container {
+    @extend %container;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+    &__title--visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+    &__subtitle {
+    margin-bottom: 10px;
+
+    @include fonts (14px, 16px, 700);
+
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+    &__card-set{
+   @extend %list-reset;
+}
+
+}
+   .features.section {
+       padding-bottom: 0;
+   }
+
+
+.features__card-item {
+    --card-item: 4;
+
+    &::before {
+    display: block;
+    content: '';
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background: #f5f4fa;
+    border-radius: 4px;
+}
+
+    &--antenna::before {
+    background-image: url('../images/antenna.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    &--clock::before {
+    background-image: url('../images/clock.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    &--planning::before {
+    background-image: url('../images/diagram.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    &--astronaut::before {
+    background-image: url('../images/astronaut.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+}
+
