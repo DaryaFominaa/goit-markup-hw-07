@@ -4,7 +4,7 @@
 }
 
 .nav__list {
-    @extend %list-reset;
+  
     display: flex;
     align-items: center;
     gap: 50px;

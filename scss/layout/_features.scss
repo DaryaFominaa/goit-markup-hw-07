@@ -2,7 +2,7 @@
 .features{
 
     &__container {
-    @extend %container;
+  
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,9 +25,6 @@
 
     text-transform: uppercase;
     color: var(--title-text-color);
-}
-    &__card-set{
-   @extend %list-reset;
 }
 
 }

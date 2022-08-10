@@ -1,14 +1,14 @@
 
-.clients__container{
-     @extend %container;
-}
-  
 .clients__title {
     margin-bottom: 50px;
 }
 
-.clients__card-item {
+.clients__card-set{
     @extend %list-reset;
+}
+
+.clients__card-item {
+    
     --card-item: 6;
 }
 

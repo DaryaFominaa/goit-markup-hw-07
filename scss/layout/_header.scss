@@ -2,7 +2,7 @@
 
 @include fonts (14px, 16px, 500, 0.02em);
   &__container {  
-    @extend %container;
+
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ececec;
